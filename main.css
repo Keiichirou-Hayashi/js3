@@ -1,0 +1,47 @@
+html{
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  overflow: scroll;
+  height: 100vh;
+}
+li{
+  list-style: none;
+}
+.flame{
+  width: auto;
+}
+#kensaku_word{
+  width: 800px;
+  border-color: aqua;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.photos{
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.photo{
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  width: 44%;
+  margin-right: 20px;
+}
+.image{
+  width: 100%;
+  height: auto;
+}
+.photo:last-child{
+  margin-right: 0;
+}
