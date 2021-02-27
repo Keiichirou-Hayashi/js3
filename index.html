@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    <title>リアルタイムフィルター</title>
+    <body>
+      <div class="flame">
+        <div class="title">
+          <h1>リアルタイムフィルター</h1>
+          <p>入力した文字を含まない要素は非表示となります。</p>
+        </div>
+        <input id="kensaku_word" onkeyup="searchTable()" type="text">
+        <ul class="photos" id="my_table">
+          <li class="photo">
+            <img src="images/bird.jpg" alt="鳥ちゃん" class="image"> 
+            <p>キーワード</p>
+            <p>鳥 とり tori</p>
+          </li>
+          <li class="photo">
+            <img src="images/slamdank.jpg" alt="スラムダンク" class="image"> 
+            <p>キーワード</p>
+            <p>スラムダンク slamdank</p>
+          </li>
+          <li class="photo">
+            <img src="images/canada_natural.jpg" alt="カナダの自然" class="image"> 
+            <p>キーワード</p>
+            <p>自然 しぜん shizenn</p>
+          </li>
+          <li class="photo">
+            <img src="images/modan.jpg" alt="モダンな家" class="image"> 
+            <p>キーワード</p>
+            <p>家 いえ ie</p>
+          </li>
+        </ul>
+      </div>
+      
+    </body>
+  </head>
+</html>
